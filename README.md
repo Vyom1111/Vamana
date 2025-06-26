@@ -55,7 +55,7 @@ This repository hosts the implementation of a **YOLOv8-Segmentation model** that
 
 ## 📂 Folder Structure
 
-\`\`\`
+```
 ├── data/                   # Annotated dataset
 ├── yolov8/                 # YOLOv8 training and prediction scripts
 ├── utils/                  # Color mapping, volume estimation scripts
@@ -63,7 +63,7 @@ This repository hosts the implementation of a **YOLOv8-Segmentation model** that
 ├── results.xlsx            # Time-stamped fluid data
 ├── README.md
 └── requirements.txt
-\`\`\`
+```
 
 ---
 
