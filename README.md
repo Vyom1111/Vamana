@@ -36,7 +36,7 @@ This repository hosts the implementation of a **YOLOv8-Segmentation model** that
 
 ## 🧱 Methodology
 
-### 1. Dataset Creation & Annotation
+### 1. Dataset Creation &amp; Annotation
 - Extracted frames from Ayurvedic procedure videos.
 - Annotated vomital regions using **Roboflow**.
 - Manually verified masks to maintain clinical accuracy.
@@ -47,7 +47,7 @@ This repository hosts the implementation of a **YOLOv8-Segmentation model** that
   - 🖼️ Input size: 640x640
   - ⏱️ Trained for 60 epochs on Google Colab (T4 GPU)
 
-### 3. Volume & Color Estimation
+### 3. volume &amp; Color Estimation
 - Color: Matched RGB values to nearest CSS3 color names (e.g., Light Yellow, Dark Green)
 - volume: `volume = area_pixels × pixel_to_ml_ratio` (via linear regression)
 
@@ -149,7 +149,7 @@ def estimate_volume(area_pixels, pixel_to_ml_ratio=0.05):
 
 ## 🤝 Contributors
 
-- **Vyom Shah** - [@VyomShah](https://github.com/your-github)  
+- **Vyom Shah** - [@VyomShah](https://github.com/Vyom1111)  
 - **Ishan Shah**  
 - Supervised by **Dr. Sumit Kalra**, IIT Jodhpur  
 - Co-Supervised by **Dr. Pooja Pathak**, AIIA
